@@ -1,0 +1,100 @@
+:root{
+    --violet:hsl(257, 40%, 49%);
+    --soft-magenta:hsl(300, 69%, 71%);
+}
+
+body{
+    background: url(images/bg-desktop.svg);
+    background-color: var(--violet);
+    position: absolute;
+}
+
+.header-container{
+    padding-top: 20px;
+    padding-left: 35px;
+}
+
+.logo{
+    width:180px;
+}
+
+.body-container{
+    display: flex;
+}
+
+.content{
+    padding-top: 35px;
+    padding-left: 35px;
+}
+
+.heading{
+    font-family: Poppins;
+    color:white;
+    font-size:35px;
+    width:60%;
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-bottom: 0;
+}
+
+.para{
+    font-family: "Open Sans";
+    color:white;
+    font-size:15px;
+    width:60%;
+    margin-top: 2em;
+    margin-left: 70px;
+    margin-bottom: 0;
+    line-height: 25apx;
+}
+
+.container{
+    height: 100vh;
+}
+
+footer > svg{
+    display: flex;
+    position :relative;
+    bottom:-65px;
+    left:90%;
+    margin-right:15px ;
+}
+
+footer>svg{
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+footer > svg > path{
+    fill:white;
+}
+
+.btn{
+    width:10rem;
+    border-radius: 25px;
+    border:none;
+    padding:15px 20px;
+    margin-top: 2em;
+    margin-left: 70px;
+    color:var(--violet);
+    font-size:15px;
+    box-shadow: 6px 5px 8px #444444da;
+
+}
+
+footer{
+    display: flex;
+}
+
+footer > svg{
+    width:15px;
+    height: 15px;
+    padding: 5px;
+}
+
+.hero-img{
+    width:40%;
+    margin-top: 6em;
+    margin-left: 4em;
+}
+
